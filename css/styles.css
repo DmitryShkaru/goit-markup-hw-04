@@ -59,6 +59,8 @@ body {
 */
 .header-border {
   border-bottom: 1px solid var(--color-cornflower);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .container {
@@ -141,7 +143,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/beckground-img/people-office\ 1.jpg);
+    url(../images/beckground-img/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -228,6 +230,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 8px;
 }
 .second-cont {
   padding-bottom: 120px;
@@ -285,6 +288,7 @@ body {
   display: flex;
   gap: 24px;
   margin-top: 8px;
+  justify-content: center;
 }
 .social-media-link {
   display: flex;
@@ -294,10 +298,14 @@ body {
   height: 40px;
   border-radius: 50%;
   background-color: var(--color-iris);
+  color: var(--color-cloud);
 }
 .social-media-link:hover,
 .social-media-link:focus {
   background-color: var(--color-ocean);
+}
+.icon-team-sect {
+  fill: var(--color-cloud);
 }
 
 /**
@@ -305,14 +313,16 @@ body {
   | fourth-section
   |============================
 */
+.fourth-section {
+  padding: 120px 0;
+}
 .fourth-sect-title {
   margin-bottom: 72px;
-  margin-top: 120px;
+  line-height: 1.1;
 }
 .fourth-sect-list {
   display: flex;
   gap: 24px;
-  margin-bottom: 120px;
 }
 .fourth-sect-link {
   display: flex;
@@ -320,13 +330,12 @@ body {
   align-items: center;
   width: 168px;
   height: 88px;
-  border: 1px solid var(--color-slate);
+  border: 1px solid var(--color-light-slate);
   border-radius: 4px;
-  color: var(--color-slate);
+  color: var(--color-light-slate);
 }
 .fourth-sect-link:hover,
 .fourth-sect-link:focus {
-  fill: var(--color-ocean);
   color: var(--color-ocean);
   border-color: var(--color-ocean);
 }
@@ -343,12 +352,14 @@ body {
 .footer-cont {
   display: flex;
   gap: 120px;
+  align-items: baseline;
 }
 .Footer-title {
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   color: var(--color-white);
+  margin-bottom: 16px;
 }
 
 .foot-logo {
@@ -373,7 +384,6 @@ body {
   max-width: 264px;
 }
 .footer-social-madia-list {
-  margin-top: 16px;
   display: flex;
   gap: 16px;
 }
@@ -385,6 +395,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: var(--color-iris);
+  color: var(--color-cloud);
 }
 .foot-social-media-link:hover,
 .foot-social-media-link:focus {
@@ -440,4 +451,12 @@ body {
 }
 .portfolio-pict {
   display: block;
+}
+.product-link {
+  display: block;
+}
+.product-link:hover,
+.product-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }

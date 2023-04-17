@@ -272,14 +272,14 @@ body {
   gap: 24px;
 }
 .third-sec-team-cont {
-  padding: 32px 16px;
+  padding: 32px 0;
   text-align: center;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
 }
 .team-item {
   background-color: var(--color-white);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 .name-staff {
   margin-bottom: 8px;
@@ -354,7 +354,7 @@ body {
   gap: 120px;
   align-items: baseline;
 }
-.Footer-title {
+.footer-title {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
